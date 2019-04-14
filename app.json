@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/bid/bid",
+    "pages/progress/progress",
+    "pages/authentication/idCard/idCard",
+    "pages/authentication/carMsg/carMsg",
+    "pages/authentication/pay/pay",
+    "pages/cancelReason/cancelReason",
+    "pages/authentication/receivingAddress/receivingAddress"
+  ],
+  "window":{
+    "backgroundTextStyle"   : "light",
+    "navigationBarTitleText": "高速ETC助手",
+    "navigationBarTextStyle": "white"
+  }
+}

@@ -1,0 +1,135 @@
+page {
+  background: #edf0f7;
+  box-sizing: border-box;
+  padding-bottom: 360rpx;
+  position: relative;
+}
+.id_card {
+  box-sizing: border-box;
+  padding-bottom: 30rpx;
+}
+.auth_nav {
+  height: 519rpx;
+  background: #6574c7;
+  border-radius: 0 0 50rpx 50rpx;
+  text-align: center;
+  padding-top: 50rpx;
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #fff;
+  vertical-align: middle;
+}
+.photos {
+  width: 100%;
+  height: 100%;
+  background: #efeef3;
+}
+.auth_nav_con>view {
+  display: inline-block;
+  width: 109rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.auth_nav_con .actives text{
+  color: #ffff70;
+}
+.auth_nav_con>text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25rpx;
+  height: 23rpx;
+  margin: 0 30rpx;
+  background-position: left -72rpx;
+} 
+.auth_nav_con>view .nav {
+  width: 53rpx;
+  height: 44rpx;
+  margin: 0 auto;
+}
+.auth_nav_con>view .nav {
+  background-position: left top;
+}
+.auth_nav_con>view .nav2 {
+  /* background-position: -264rpx top; */
+  background-position: -72rpx top;
+}
+.auth_nav_con>view .nav3 {
+  background-position: -144rpx top;
+}
+.auth_nav_con>view .nav4 {
+  background-position: -207rpx top;
+}
+.auth_nav_con>view text {
+  display: block;
+  text-align: center;
+  margin-top: 22rpx;
+}
+.auth_nav_con .active {
+  background-position: -144rpx -72rpx;
+}
+
+.idcard_box {
+  width: 731rpx;
+  /* height: 524rpx; */
+  margin: 0 auto 0;
+  background: #fff;
+  margin-top: -393rpx;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  padding: 48rpx 22rpx 0;
+  padding-bottom: 65rpx;  
+}
+.idcard_box .auth_t {
+  vertical-align: bottom;
+  font-size: 28rpx;
+  line-height: 28rpx;
+  color: #1a1a1a;
+  margin-bottom: 46rpx;
+}
+.idcard_box .auth_h {
+  color: #7fb1eb;
+  font-size: 22rpx;
+  display: inline-block;
+  margin-left: 11rpx;
+}
+.auth_introduce {
+  font-size: 22rpx;
+  color: #898989;
+  line-height: 22rpx;
+}
+.id_card_con {
+  margin-top: 31rpx;
+  text-align: center;
+}
+.id_card_con>view {
+  display: inline-block;
+  width: 331rpx;
+  height: 283rpx;
+  background-position: left top;
+}
+.id_card_con .bg2 {
+  background-position: left -303rpx;
+}
+.id_card_con .bg3 {
+  background-position: left -609rpx;
+}
+.id_card_con .margin_r {
+  margin-right: 17rpx;
+}
+.sub_btn_con {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 60rpx;
+  /* margin-top: 312rpx; */
+}
+.sub_btn {
+  margin-bottom: 20rpx;
+}
+.cancel {
+  background: #edf0f7;
+  color: #989799;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 12px;
+}

@@ -1,0 +1,37 @@
+<view class="">
+
+  <view class='cancel_r'>请选择取消申办原因</view>
+
+  <view class='redio_con'>
+
+    <view class='flex_con' bindtap='checked' data-eq='1'>
+      <view class='check_con {{activeEq == 1?"checked":""}}'>
+        <text></text>
+      </view>
+      <view class='flex_list'>修改身份信息</view>
+    </view>
+
+    <view class='flex_con'  bindtap='checked' data-eq='2'>
+      <view class='check_con {{activeEq == 2?"checked":""}}'>
+        <text></text>
+      </view>
+      <view class='flex_list'>修改车辆信息</view>
+    </view>
+
+    <view class='flex_con no_border'  bindtap='checked' data-eq='3'>
+      <view class='check_con {{activeEq == 3?"checked":""}}'>
+        <text></text>
+      </view>
+      <view class='flex_list'>已办理过ETC</view>
+    </view>
+    
+  </view>
+
+  <view class='other_reason_con'>
+    <view class='other_reason_t'>其它原因</view>
+    <input placeholder='请输入取消申办原因，谢谢您的帮助！'></input>
+  </view>
+
+  <view class='common_btn1 common_btn_r' bindtap='continue'>继续申办</view>
+  <view class='common_btn1 cancel' bindtap='cancel'>取消申办</view>
+</view>

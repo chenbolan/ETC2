@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<view class="id_card">
+  <view class='auth_nav'>
+
+    <view class='auth_nav_con'>
+
+      <view >
+        <view class='common_bg nav nav1'></view>
+        <text>车主资料</text>
+      </view>
+      <text class='arrow_icon common_bg '></text>
+
+      <view >
+        <view class='common_bg nav nav2'></view>
+        <text>车辆信息</text>
+      </view>
+      <text class='arrow_icon common_bg '></text>
+
+      <view class='actives'>
+        <view class='common_bg nav nav3 '></view>
+        <text>收货地址</text>
+      </view>
+      <text class='arrow_icon common_bg active'></text>
+
+      <view>
+        <view class='common_bg nav nav4'></view>
+        <text>设备付款</text>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class='idcard_box'>
+
+    <view class='msg_title'>请准确填写以下信息</view>
+    <view class='msg_inp_con'>
+
+      <view class='inp_list_con flex_con'>
+        <view class='inp_t'>姓名</view>
+        <input class='flex_list' type='text' placeholder='请输入姓名' placeholder-style="color:#b0b0ae;" value='{{name}}' bindinput='getName'/>
+      </view>
+      <view class='inp_list_con flex_con'>
+        <view class='inp_t'>身份证</view>
+        <input class='flex_list' type='number' placeholder='请输入身份证号码' placeholder-style="color:#b0b0ae;" value='{{idCard}}' bindinput='getIdCard'/>
+      </view>
+      
+      <view class='inp_list_con flex_con'>
+        <view class='inp_t'>车牌号</view>
+        <input class='flex_list' placeholder='请输入姓名' placeholder-style="color:#b0b0ae;" value='{{carNum}}' bindinput='getCarNum'/>
+      </view>
+      
+      <view class='inp_list_con flex_con'>
+        <view class='inp_t'>联系电话</view>
+        <input class='flex_list' placeholder='请输入联系电话' placeholder-style="color:#b0b0ae;" value='{{mobile}}' bindinput='getMobile'/>
+      </view>
+      
+      <view class='inp_list_con flex_con'>
+        <view class='inp_t'>收货地址</view>
+        <input class='flex_list' placeholder='请输入收货地址' placeholder-style="color:#b0b0ae;" value='{{adress}}' bindinput='getAdress'/>
+        <picker
+          mode="region"
+          bindchange="bindRegionChange"
+          value="{{region}}"
+        >
+          {{region[0]+' '+ region[1] + ' '+ region[2]}}
+        </picker>
+      </view>
+
+      <view class='inp_list_con flex_con'>
+        <view class='inp_t'>详细地址</view>
+        <input class='flex_list' placeholder='请输入详细地址' placeholder-style="color:#b0b0ae;" value='{{adressDetail}}' bindinput='getAdressDetail'/>
+      </view>
+
+    </view>  
+  </view>
+
+  <view class='sub_btn_con'>
+    <view class='common_btn1 sub_btn' bindtap='toSubOrder'>下一步</view>
+    <view class='common_btn1 cancel' bindtap='cancel'>取消申办</view>
+  </view>
+  
+
+</view>

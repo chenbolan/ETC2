@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="">
+  <view class='c_head'></view>
+
+  <view class='introduce_con'>
+    <text class='introducec_1'>尊享高速ETC专用通道</text>
+    <text class='introduce_2'>在线申办畅行全国高速</text>
+     <text >自动扣费，享用通行折扣</text>
+  </view>
+
+  <view class='btn_con'>
+    <view class='common_btn1_c' bindtap='toOrder' wx:if="{{ state<5}}">
+      <view class='common_btn1'>查看订单</view>
+    </view>
+
+    <view class='common_btn1_c' bindtap='toBid' wx:else>
+      <view class='common_btn1'>申办ETC</view>
+    </view>
+
+    <view class='common_btn2  contact'>
+      <button open-type='contact'>联系客服</button>
+     联系客服
+    </view>
+    
+  </view>
+
+
+</view>

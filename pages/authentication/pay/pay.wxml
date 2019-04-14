@@ -1,0 +1,82 @@
+<!--index.wxml-->
+<view class="id_card">
+  <view class='auth_nav'>
+
+    <view class='auth_nav_con'>
+
+      <view >
+        <view class='common_bg nav nav1'></view>
+        <text>车主资料</text>
+      </view>
+      <text class='arrow_icon common_bg '></text>
+
+      <view >
+        <view class='common_bg nav nav2'></view>
+        <text>车辆信息</text>
+      </view>
+      <text class='arrow_icon common_bg '></text>
+
+      <view>
+        <view class='common_bg nav nav3'></view>
+        <text>收货地址</text>
+      </view>
+      <text class='arrow_icon common_bg'></text>
+
+      <view class='actives'>
+        <view class='common_bg nav nav4'></view>
+        <text>设备付款</text>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class='idcard_box'>
+
+    <view class='auth_t'>
+      <text >设备信息</text>
+    </view>
+    <view class='equipment_msg'>
+
+      <view class='flex_con eq_img_con'>
+        <view class='equipment_img common_bg'></view>
+        <view class='flex_list'>
+          <text>电子标签设备，安装后，</text>
+          <text>可实现不停车同行</text>
+        </view>
+      </view>
+      
+      <view class='money_con'>
+        <view class='flex_con'>
+          <view class='flex_item'>电子标签设备</view>
+          <text>168.00</text>
+        </view>
+        <view class='flex_con'>
+          <view class='flex_item'>高速通行卡</view>
+          <text>30.00</text>
+        </view>
+      </view>
+
+      <view class='flex_con total_money'>
+        <view class='flex_item'>合计（含运费）</view>
+        <text>¥198</text>
+      </view>
+
+    </view>
+
+  </view>
+  
+  <view class='agreement_con'>
+    <view class='agreement_icon common_bg'></view>
+    <view>
+      我已了解，遵守并同意 <text>《用户服务协议》</text>及<text>《电子标签使用协议》</text>
+    </view>
+  </view>
+
+  <view class='sub_btn_con'>
+    <view class='common_btn1 sub_btn' bindtap='getPayParams'>立即付款</view>
+    <view class='common_btn1 cancel'>取消申办</view>
+  </view>
+  
+
+</view>

@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="">
+  <view class='bid_head_con'>
+
+    <view class='bid_head_con_bg'></view>
+
+    <view class='bid_card'>
+
+      <view class='bid_num_con flex_con'>
+        <text class='flex_item'>通行全国高速</text>
+        <text>月办理量 8533</text>
+      </view>
+      <view class='bid_btn_con'>
+        <text class='icon1 common_bg'></text>
+        <text>充值卡</text>
+        <text class='icon2 common_bg'></text>
+      </view>
+      <view class='more'>
+        <text>了解更多</text>
+        <text class='icon3 common_bg'></text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='bid_introduce'>
+
+    <view class='bid_introduce_h'>手机在线缴费</view>
+    <view class='condition'>仅限办理ETC的私人客车（≤7座）申办</view>
+    <view class='advantage'>
+      <text>手机全搞定</text>
+      <text class='middle_advantage'>微信支付</text>
+      <text>设备有优惠</text>
+    </view>
+
+    <view class='introduce_t'>交通部相关规定：办理ETC需提交</view>
+    <view class='certificates'>
+      <view class='certificates_v_con'>
+        <view class='common_bg'></view>
+        <text>身份证</text>
+      </view>
+      <view class='certificates_v_con certificates_v_middle  certificates_v_con2'>
+        <view class='common_bg'></view>
+        <text>车头照</text>
+      </view>
+      <view class='certificates_v_con certificates_v_con3'>
+        <view class='common_bg'></view>
+        <text>行驶证</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='common_btn2' bindtap='toNextSetp'>立即申办</view>
+
+</view>

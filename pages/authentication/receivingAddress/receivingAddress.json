@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle"         : "light",
+  "navigationBarTitleText"      : "收货地址",
+  "navigationBarTextStyle"      : "white",
+  "navigationBarBackgroundColor": "#6574c7",
+  "backgroundColor"             : "#f30",
+  "usingComponents"             : {}
+  
+}

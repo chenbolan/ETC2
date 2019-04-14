@@ -1,0 +1,84 @@
+page {
+  background: #f8f8f6;
+}
+.cancel_r {
+  height: 103rpx;
+  line-height: 103rpx;
+  background: #f8f8f6;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+  color: #b6b6b4;
+}
+.redio_con {
+  padding: 30rpx 0;
+  border-bottom: 15rpx solid #f8f8f6;
+  background: #fff;
+}
+.redio_con>view {
+  width: 690rpx;
+  margin: 0 auto;
+  align-items: center;
+  height: 86rpx;
+  border-bottom: 1px solid #e3e3e1;
+  font-size: 32rpx;
+  color: #000000;
+}
+.redio_con .no_border {
+  border: none;
+}
+.redio_con>view .check_con {
+  display: block;
+  box-sizing: border-box;
+  width: 50rpx;
+  height: 50rpx;
+  border: 1px solid #d3d3d1;
+  border-radius: 50%;
+  margin-right: 10rpx;
+  position: relative;
+}
+.redio_con>view .checked text{
+  contain: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  background: #6574c7;
+  transform: translate3d(-50%,-50%,0);
+  border-radius: 50%;
+}
+
+.other_reason_con {
+  background: #fff;
+  padding: 60rpx 20rpx 150rpx 24rpx;
+}
+.other_reason_t {
+  font-size: 28rpx;
+  color: #000;
+  line-height: 28rpx;
+  font-weight: bold;
+  padding-left: 26rpx;
+  padding-bottom: 34rpx;
+  border-bottom: 1px solid #d3d3d1;
+}
+.other_reason_con input {
+  font-size: 14px;
+  color: #a8a8a8;
+  display: block;
+  outline: none;
+  width: 100%;
+  margin-top: 22rpx;
+}
+.common_btn_r {
+  margin-top: 124rpx;
+}
+.cancel {
+  background: #f8f8fa;
+  color: #000;
+  /* height: 60rpx; */
+  /* line-height: 60rpx; */
+  /* font-size: 12px; */
+  border: 1px solid #dedede;
+  margin: 16rpx auto 40rpx;
+}

@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="id_card">
+  <view class='auth_nav'>
+
+    <view class='auth_nav_con'>
+
+      <view >
+        <view class='common_bg nav nav1'></view>
+        <text>车主资料</text>
+      </view>
+      <text class='arrow_icon common_bg '></text>
+
+      <view class='actives'>
+        <view class='common_bg nav nav2'></view>
+        <text>车辆信息</text>
+      </view>
+      <text class='arrow_icon common_bg active'></text>
+
+      <view>
+        <view class='common_bg nav nav3'></view>
+        <text>收货地址</text>
+      </view>
+      <text class='arrow_icon common_bg'></text>
+
+      <view>
+        <view class='common_bg nav nav4'></view>
+        <text>设备付款</text>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class='idcard_box'>
+
+    <view class='auth_t'>
+      <text >请上传身份证</text>
+      <text class='auth_h'>《用户隐私保护政策》</text>
+    </view>
+    <view class='auth_introduce'>请确保照片清晰，证件信息完整</view>
+    <view class='id_card_con'>
+      <view class='idcard_bg margin_r' bindtap='simpleUpload' data-key='drivingLicenseSignPhoto'>
+        <cover-image class='photos' wx:if="{{drivingLicenseSignPhoto}}" src='{{drivingLicenseSignPhoto}}'></cover-image> 
+      </view>
+      <view class='idcard_bg bg2' bindtap='simpleUpload' data-key='drivingLicenseCodePhoto'>
+        <cover-image class='photos' wx:if="{{drivingLicenseCodePhoto}}" src='{{drivingLicenseCodePhoto}}'></cover-image>
+      </view>
+      <view class='idcard_bg bg3 margin_r' bindtap='simpleUpload' data-key='carFrontPhoto'>
+        <cover-image class='photos' wx:if="{{carFrontPhoto}}" src='{{carFrontPhoto}}'></cover-image>
+      </view>
+       <view ></view>
+    </view>
+  </view>
+
+  <view class='sub_btn_con'>
+    <view class='common_btn1 sub_btn' bindtap='nextStep'>下一步</view>
+    <view class='common_btn1 cancel' bindtap='cancel'>取消申办</view>
+  </view>
+  
+
+</view>

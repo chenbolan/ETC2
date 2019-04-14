@@ -1,0 +1,90 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
+	"appid": "wx6da68ba37233c866",
+	"projectname": "ETC",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 6,
+			"list": [
+				{
+					"id": -1,
+					"name": "新办申卡",
+					"pathName": "pages/bid/bid",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "身份证",
+					"pathName": "pages/authentication/idCard/idCard",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "车辆信息",
+					"pathName": "pages/authentication/carMsg/carMsg",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "收货地址",
+					"pathName": "pages/authentication/receivingAddress/receivingAddress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设备付款",
+					"pathName": "pages/authentication/pay/pay",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "进度查询",
+					"pathName": "pages/progress/progress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "取消原因",
+					"pathName": "pages/cancelReason/cancelReason",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

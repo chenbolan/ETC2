@@ -1,0 +1,89 @@
+<view>
+
+  <view class='procress_t'>
+    <view class='procress_t_t common_bg'></view>
+    <view class='procress_t_b common_bg'></view>
+  </view>
+
+  <view class='procress_con'>
+
+    <view class='procress_title'>申办进度</view>
+
+    <view class='procress_box flex_con'>
+
+      <view class='procress_l flex_con'>
+        <text class='crl crl1'></text>
+        <view class='flex_item'></view>
+      </view>
+
+      <view class='procress_r flex_item'>
+        <view class='p_1'>
+          <text>提交资料</text> 
+          <text class='state_icon1 common_bg'></text>
+        </view>
+        <view class='p_2 margin_1'>收货人:陈博览</view>
+        <view class='p_2 margin_2'>联系电话:17610185110</view>
+      </view>
+
+    </view>
+
+    <view class='procress_box flex_con'>
+
+      <view class='procress_l flex_con'>
+        <text class='crl crl2'></text>
+        <view class='flex_item'></view>
+      </view>
+
+      <view class='procress_r flex_item'>
+        <view class='p_1'>
+          <text>在线付款</text> 
+          <text class='state_icon1 common_bg' wx:if="{{state > 0}}"></text>
+          <text class='state_icon2 common_bg' wx:if="{{state == 0}}"></text>
+        </view>
+        <view class='p_2 margin_1'>付款完成后为您审核材料</view>
+        <view wx-if="{{state == 0}}" class='pay_btn' bindtap="getPayParams">立即付款</view>
+      </view>
+
+    </view>
+
+    <view class='procress_box flex_con'>
+
+      <view class='procress_l flex_con'>
+        <text class='crl {{state > 0?"crl3":""}}'></text>
+        <view class='flex_item'></view>
+      </view>
+
+      <view class='procress_r flex_item'>
+        <view class='p_1'>
+          <text>审核资料</text> 
+          <text class='state_icon1 common_bg' wx:if="{{state == 3 || state == 5 }}"></text>
+          <text class='state_icon2 common_bg' wx:if="{{state == 4}}"></text>
+        </view>
+        <view class='p_2 margin_1' wx:if="{{state == 4}}">资料审核未通过</view>
+        <view class='p_2 margin_1' wx:else>三个工作日完成资料审核</view>
+        <view wx-if="{{state == 4}}" class='pay_btn'bindtap="reApply">重新申请</view>
+      </view>
+
+    </view>
+
+    <view class='procress_box flex_con'>
+
+      <view class='procress_l flex_con'>
+        <text class='crl {{state == 5?"crl4":""}}'></text>
+        <!-- <view class='flex_item'></view> -->
+      </view>
+
+      <view class='procress_r flex_item'>
+        <view class='p_1'>
+          <text>{{state < 5?"尚未配送":"配送完毕"}}</text> 
+        </view>
+        <view class='p_2 margin_1'>三到五个工作日即可送达</view>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class='common_btn1' bindtap='goIndex'>返回首页</view>
+
+</view>

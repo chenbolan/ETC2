@@ -1,0 +1,170 @@
+page
+{
+    padding-bottom: 40rpx;
+
+    background: #6872c7;
+}
+.common_btn1
+{
+    margin-top: 46rpx;
+
+    color: #6f83dd;
+    background: #fff;
+}
+.procress_t
+{
+    box-sizing: border-box;
+    width: 720rpx;
+    height: 190rpx;
+    margin: 34rpx auto 6rpx;
+    padding-top: 36rpx;
+
+    border-radius: 10rpx;
+    background: #fff;
+}
+.procress_t_t
+{
+    width: 370rpx;
+    height: 38rpx;
+    margin: 0rpx auto 34rpx;
+
+    background-position: -380rpx -275rpx;
+}
+.procress_t_b
+{
+    width: 216rpx;
+    height: 54rpx;
+    margin: 0rpx auto;
+
+    background-position: -537rpx -325rpx;
+}
+.procress_con
+{
+    /* height: 770rpx; */
+    box-sizing: border-box;
+    width: 720rpx;
+    margin: 0 auto;
+    padding-top: 56rpx;
+    padding-bottom: 50rpx;
+    padding-left: 60rpx;
+
+    border-radius: 10rpx;
+    background: #fff;
+}
+.procress_title
+{
+    font-size: 15px;
+    font-weight: bold;
+
+    margin-bottom: 31rpx;
+
+    color: #38383a;
+}
+.p_2
+{
+    font-size: 13px;
+
+    color: #a3a3a4;
+}
+.p_1
+{
+    font-size: 15px;
+    line-height: 15px;
+
+    margin-bottom: 30rpx;
+    padding-top: 14rpx;
+
+    color: #171719;
+}
+.procress_l
+{
+    align-items: center;
+    flex-direction: column;
+
+    margin-right: 14rpx;
+}
+.procress_l view
+{
+    margin-top: 7rpx;
+
+    border-left: 1px dashed #dbdbdb;
+}
+.pay_btn
+{
+    font-size: 26rpx;
+    line-height: 60rpx;
+
+    width: 277rpx;
+    height: 60rpx;
+    margin-top: -20rpx;
+    margin-bottom: 10rpx;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 6rpx;
+    background: #4db151;
+}
+.procress_box
+{
+    margin-bottom: 16rpx;
+}
+.procress_l .crl
+{
+    display: block;
+
+    box-sizing: border-box;
+    width: 31rpx;
+    height: 31rpx;
+
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+}
+.crl1
+{
+    background: #66c72a;
+}
+.procress_l .crl3
+{
+    background: #ff8794;
+}
+.procress_l .crl4
+{
+    background: #3d4680;
+}
+.procress_l .crl2
+{
+    background: #2397f8;
+}
+.margin_1
+{
+    margin-bottom: 32rpx;
+}
+.margin_2
+{
+    padding-bottom: 16rpx;
+}
+.state_icon1
+{
+    display: inline-block;
+
+    width: 42rpx;
+    height: 28rpx;
+    margin-left: 13rpx;
+
+    vertical-align: middle;
+
+    background-position: -184rpx -72rpx;
+}
+.state_icon2
+{
+    display: inline-block;
+
+    width: 31rpx;
+    height: 26rpx;
+    margin-left: 13rpx;
+
+    vertical-align: middle;
+
+    background-position: -238rpx -72rpx;
+}

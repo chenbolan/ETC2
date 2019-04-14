@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTitleText": "进度查询",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#6872c7",
+  "backgroundColor": "#f30",
+  "usingComponents": {}
+  
+}
